@@ -1,0 +1,7 @@
+{
+    "name": "Compass_Relay",
+    "version": "1.0.0",
+    "author": "Travis Elliott <travis@controleverything.com>",
+    "license": "GNU",
+    "description": "Library serves as example for article Compass_Relay on controleverything.com"
+}

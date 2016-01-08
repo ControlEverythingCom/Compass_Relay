@@ -1,7 +1,3 @@
-// This #include statement was automatically added by the Particle IDE.
-#include "NCD8Relay/NCD8Relay.h"
-
-// This #include statement was automatically added by the Particle IDE.
 #include "Compass_Relay.h"
 #include <cmath>
 

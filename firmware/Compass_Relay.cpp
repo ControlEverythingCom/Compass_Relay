@@ -1,4 +1,4 @@
-#include "MAG3110.h"
+#include "Compass_Relay.h"
 #include "spark_wiring_usbserial.h"
 #include "spark_wiring_i2c.h"
 #include "spark_wiring_constants.h"

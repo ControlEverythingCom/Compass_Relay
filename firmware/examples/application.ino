@@ -22,7 +22,6 @@ void setup() {
         Serial.println("Failed to init Compass");
     }else{
         Serial.println("Compass initialized");
-        readCompass = true;
     }
     Particle.variable("Heading", headingDegrees);
     Particle.function("SetMinD", setMinDegrees);
@@ -101,6 +100,7 @@ int calibrateSensor(String command){
     }else{
         compass.runCalibration = false;
     }
+    return 1;
 }
 
 void checkStoredVals(){

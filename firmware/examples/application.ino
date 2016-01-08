@@ -1,4 +1,4 @@
-#include "Compass_Relay.h"
+#include "Compass_Relay/Compass_Relay.h"
 #include <cmath>
 
 MAG3110 compass;

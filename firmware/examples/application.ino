@@ -4,23 +4,6 @@
 MAG3110 compass;
 NCD8Relay relayController;
 
-bool readCompass = false;
-
-int readings[3];
-
-int minX = 537000000;
-int maxX = 0;
-
-int minY = 537000000;
-int maxY = 0;
-
-int minZ = 537000000;
-int maxZ = 0;
-
-double xOffset = 64203;
-double yOffset = 726.5;
-double zOffset = 32767.5;
-
 float minDegrees = 181.00f;
 float maxDegrees = 181.00f;
 
@@ -33,8 +16,6 @@ int setMaxDegrees(String data);
 int setMinDegrees(String data);
 int calibrateSensor(String command);
 void checkStoredVals();
-
-String nothingStored = "nan";
 
 void setup() {
     if(!compass.init()){

@@ -1,6 +1,6 @@
 # About
 
-In this article we will setup a Particle Photon module to monitor compass baring throught the MAG3110 Three-Axis Digital Magnetometer Electronic Compass I²C Mini Module.  Based on readings from this sensor we will turn relays on and off using the Relay Shield for Particle Photon I²C 8-Channel SPDT 10-Amp.
+In this article we will setup a Particle Photon module to monitor compass baring through the MAG3110 Three-Axis Digital Magnetometer Electronic Compass I²C Mini Module.  Based on readings from this sensor we will turn relays on and off using the Relay Shield for Particle Photon I²C 8-Channel SPDT 10-Amp.
 
 This Library is intended to be used in conjunction with the Control Anything article Compass_Relay.
 
